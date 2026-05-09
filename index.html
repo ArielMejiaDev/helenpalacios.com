@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Helen Palacios — Marketing & Digital Strategy Lead</title>
+<meta name="description" content="Marketing & Digital Strategy Lead with 7+ years building desirable, high-performing digital brands. Available for remote roles in US & EMEA. Growth · Branding · E-commerce.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Helen Palacios — Marketing & Digital Strategy Lead">
+<meta property="og:description" content="Building desirable, trustworthy, high-performing digital brands. Available for remote roles in US & EMEA.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="img/helen-2x.jpeg">
+<meta property="og:image:alt" content="Portrait of Helen Palacios">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Helen Palacios — Marketing & Digital Strategy Lead">
+<meta name="twitter:description" content="Building desirable, trustworthy, high-performing digital brands.">
+<meta name="twitter:image" content="img/helen-2x.jpeg">
+
+<!-- Schema.org Person -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Helen Palacios",
+  "jobTitle": "Marketing & Digital Strategy Lead",
+  "image": "img/helen-2x.jpeg",
+  "description": "Marketing & Digital Strategy Lead specializing in growth, branding, and e-commerce for B2B and B2C brands.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Guatemala City",
+    "addressCountry": "GT"
+  },
+  "email": "helen.pala@gmail.com",
+  "sameAs": [
+    "https://www.linkedin.com/in/helen-palacios-363aba192/"
+  ],
+  "knowsAbout": ["Digital Marketing", "Brand Strategy", "SEO", "Paid Media", "E-commerce", "Content Strategy", "Corporate Communication"]
+}
+</script>
+
+<!-- Fonts: Editorial serif + clean sans -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+  /* ============ DESIGN TOKENS ============ */
+  :root {
+    --ink: #0B2545;
+    --ink-soft: #13315C;
+    --paper: #FAF8F4;
+    --paper-2: #F0EBE0;
+    --line: #D4CDB8;
+    --gray: #6B6B6B;
+    --gray-soft: #9A9A9A;
+    --accent: #C9A84F;     /* warm gold */
+    --accent-2: #8B2635;   /* deep claret */
+    --serif: 'Fraunces', 'Times New Roman', serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --max: 1280px;
+    --gutter: clamp(1.25rem, 4vw, 3rem);
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--paper);
+    color: var(--ink);
+    line-height: 1.6;
+    font-weight: 400;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Subtle paper grain texture */
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.04 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    pointer-events: none;
+    z-index: 1;
+    mix-blend-mode: multiply;
+  }
+
+  a { color: inherit; text-decoration: none; }
+
+  ::selection { background: var(--ink); color: var(--paper); }
+
+  /* ============ NAV ============ */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    padding: 1.25rem var(--gutter);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    background: rgba(250, 248, 244, 0.78);
+    border-bottom: 1px solid transparent;
+    transition: border-color .3s ease;
+  }
+  nav.scrolled { border-bottom-color: var(--line); }
+  nav .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  nav .mark {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.1rem;
+    letter-spacing: -0.01em;
+  }
+  nav .mark span { color: var(--accent-2); }
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 2.25rem;
+    align-items: center;
+  }
+  nav ul a {
+    font-size: 0.85rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    transition: color .2s ease;
+    position: relative;
+  }
+  nav ul a:hover { color: var(--accent-2); }
+  nav ul a.cta {
+    background: var(--ink);
+    color: var(--paper);
+    padding: 0.65rem 1.1rem;
+    border-radius: 999px;
+    transition: all .25s ease;
+  }
+  nav ul a.cta:hover {
+    background: var(--accent-2);
+    color: var(--paper);
+    transform: translateY(-1px);
+  }
+  @media (max-width: 720px) {
+    nav ul li:not(:last-child) { display: none; }
+  }
+
+  /* ============ HERO ============ */
+  .hero {
+    min-height: 100vh;
+    padding: 8rem var(--gutter) 4rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  .hero::after {
+    content: '';
+    position: absolute;
+    bottom: 0; right: -10%;
+    width: 60%; height: 70%;
+    background: radial-gradient(ellipse at center, rgba(201, 168, 79, 0.18), transparent 65%);
+    pointer-events: none;
+    z-index: 0;
+  }
+  .hero .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+    width: 100%;
+  }
+  .eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-soft);
+    margin-bottom: 2rem;
+    font-weight: 500;
+  }
+  .eyebrow .dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #2D7A3C;
+    box-shadow: 0 0 0 4px rgba(45, 122, 60, 0.18);
+    animation: pulse 2.5s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { box-shadow: 0 0 0 4px rgba(45, 122, 60, 0.18); }
+    50% { box-shadow: 0 0 0 8px rgba(45, 122, 60, 0.05); }
+  }
+
+  .hero h1 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.6rem, 7.5vw, 6.5rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    margin-bottom: 1.5rem;
+    font-variation-settings: "opsz" 144;
+  }
+  .hero h1 em {
+    font-style: italic;
+    color: var(--accent-2);
+    font-weight: 300;
+  }
+  .hero h1 .underline {
+    background-image: linear-gradient(transparent 65%, rgba(201, 168, 79, 0.45) 65%);
+    background-repeat: no-repeat;
+    padding: 0 0.1em;
+  }
+
+  .hero .lede {
+    font-size: clamp(1.05rem, 1.4vw, 1.25rem);
+    color: var(--gray);
+    max-width: 620px;
+    line-height: 1.65;
+    margin-bottom: 2.5rem;
+  }
+
+  .hero-meta {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    align-items: flex-start;
+    margin-top: 4rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--line);
+    max-width: 720px;
+  }
+  @media (max-width: 720px) {
+    .hero-meta { grid-template-columns: repeat(2, 1fr); gap: 1.75rem; }
+  }
+  .hero-meta .item {
+    flex: 0 1 auto;
+  }
+  .hero-meta .label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--gray-soft);
+    margin-bottom: 0.45rem;
+    display: block;
+  }
+  .hero-meta .value {
+    font-family: var(--serif);
+    font-size: 1rem;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  .hero-actions {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2.5rem;
+    flex-wrap: wrap;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 1rem 1.6rem;
+    border-radius: 999px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    transition: all .25s ease;
+    cursor: pointer;
+    border: none;
+  }
+  .btn-primary {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .btn-primary:hover {
+    background: var(--accent-2);
+    transform: translateY(-2px);
+    box-shadow: 0 12px 30px -8px rgba(139, 38, 53, 0.4);
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--ink);
+    border: 1px solid var(--ink);
+  }
+  .btn-secondary:hover {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .btn .arrow {
+    transition: transform .25s ease;
+  }
+  .btn:hover .arrow {
+    transform: translateX(4px);
+  }
+
+  /* ============ SECTION SHARED ============ */
+  section {
+    padding: 6rem var(--gutter);
+    position: relative;
+    z-index: 2;
+  }
+  section .wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+  }
+  .section-head {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    margin-bottom: 4rem;
+    align-items: end;
+  }
+  @media (max-width: 800px) {
+    .section-head { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  .section-num {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 0.95rem;
+    color: var(--accent-2);
+    letter-spacing: 0.05em;
+  }
+  .section-title {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2rem, 4vw, 3.2rem);
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--ink);
+  }
+  .section-title em {
+    font-style: italic;
+    color: var(--accent-2);
+  }
+  .section-kicker {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.22em;
+    color: var(--gray);
+    margin-bottom: 0.75rem;
+  }
+
+  /* ============ ABOUT ============ */
+  .about {
+    background: var(--paper-2);
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .about .grid {
+    display: grid;
+    grid-template-columns: 1fr 1.3fr;
+    gap: 5rem;
+    align-items: start;
+  }
+  @media (max-width: 800px) {
+    .about .grid { grid-template-columns: 1fr; gap: 3rem; }
+  }
+  .about-photo {
+    aspect-ratio: 4/5;
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    background: var(--ink);
+    box-shadow:
+      0 1px 1px rgba(11, 37, 69, 0.04),
+      0 8px 24px -6px rgba(11, 37, 69, 0.18),
+      0 24px 48px -12px rgba(11, 37, 69, 0.12);
+  }
+  /* LQIP blur-up: tiny base64 placeholder shown immediately while real image loads */
+  .about-photo::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: url("data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAAAAAAD/2wBDABsSFBcUERsXFhceHBsgKEIrKCUlKFE6PTBCYFVlZF9VXVtqeJmBanGQc1tdhbWGkJ6jq62rZ4C8ybqmx5moq6T/2wBDARweHigjKE4rK06kbl1upKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKSkpKT/wAARCAAoACADASIAAhEBAxEB/8QAGgAAAwADAQAAAAAAAAAAAAAAAAQFAQIGA//EACUQAAICAQMDBAMAAAAAAAAAAAECAAMRBBIhBTFRE0FhcWKBsf/EABYBAQEBAAAAAAAAAAAAAAAAAAIAAf/EABgRAQEBAQEAAAAAAAAAAAAAAAABESEy/9oADAMBAAIRAxEAPwC4gzNyoUFiQAPMxXJvVbS+pWnJCr3+4MNTU57TcCTdARXqAiltrKeD5lMSivHg1tdC7rHCj5kW/UB+o71yVZuIjbaXbL2nP5GY9TFiNyADn9SKzFIawJdtRske5HaP6HUvYTXY2SeQT/JzwceoPlsx+q/a4IPImzjfU2rLUhid4Rl9gViHUKdHp6DbbUpxwo7ZPiEIYDmxbls9ueI3Vbk+fqEI8ZLY/9k=");
+    background-size: cover;
+    background-position: center 22%;
+    filter: blur(20px) saturate(1.1);
+    transform: scale(1.1);
+    z-index: 0;
+    transition: opacity 0.4s ease 0.1s;
+  }
+  .about-photo.loaded::before {
+    opacity: 0;
+  }
+  .about-photo picture,
+  .about-photo img {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  .about-photo img {
+    object-fit: cover;
+    object-position: center 22%;
+    filter: saturate(0.95) contrast(1.02);
+    transition: transform 1.2s cubic-bezier(.2,.7,.3,1), opacity 0.5s ease;
+    opacity: 0;
+  }
+  .about-photo.loaded img {
+    opacity: 1;
+  }
+  .about-photo:hover img {
+    transform: scale(1.025);
+  }
+  /* Subtle warm vignette to integrate with paper palette */
+  .about-photo::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+      linear-gradient(180deg, rgba(11, 37, 69, 0) 60%, rgba(11, 37, 69, 0.18) 100%),
+      radial-gradient(ellipse at 50% 35%, transparent 50%, rgba(139, 38, 53, 0.06) 100%);
+    mix-blend-mode: multiply;
+    z-index: 2;
+  }
+  .about-text p {
+    font-family: var(--serif);
+    font-size: clamp(1.15rem, 1.6vw, 1.5rem);
+    line-height: 1.55;
+    color: var(--ink);
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+  }
+  .about-text p strong {
+    font-weight: 500;
+    color: var(--accent-2);
+  }
+  .about-text .signature {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--gray);
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--line);
+  }
+
+  /* ============ EXPERTISE ============ */
+  .expertise-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--line);
+    border-left: 1px solid var(--line);
+  }
+  @media (max-width: 900px) {
+    .expertise-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .expertise-grid { grid-template-columns: 1fr; }
+  }
+  .expertise-card {
+    padding: 2.5rem 2rem;
+    border-right: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    transition: background .3s ease;
+    position: relative;
+  }
+  .expertise-card:hover { background: var(--paper-2); }
+  .expertise-card .num {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 0.85rem;
+    color: var(--accent-2);
+    margin-bottom: 1.2rem;
+  }
+  .expertise-card h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: var(--ink);
+    margin-bottom: 0.8rem;
+    letter-spacing: -0.01em;
+  }
+  .expertise-card p {
+    font-size: 0.92rem;
+    color: var(--gray);
+    line-height: 1.6;
+  }
+
+  /* ============ EXPERIENCE TIMELINE ============ */
+  .experience {
+    background: var(--ink);
+    color: var(--paper);
+  }
+  .experience .section-num { color: var(--accent); }
+  .experience .section-title { color: var(--paper); }
+  .experience .section-title em { color: var(--accent); }
+  .experience .section-kicker { color: rgba(250, 248, 244, 0.55); }
+
+  .timeline {
+    border-top: 1px solid rgba(250, 248, 244, 0.15);
+  }
+  .role {
+    display: grid;
+    grid-template-columns: 200px 1fr 2fr;
+    gap: 3rem;
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(250, 248, 244, 0.15);
+    align-items: start;
+  }
+  @media (max-width: 900px) {
+    .role { grid-template-columns: 1fr; gap: 1rem; }
+  }
+  .role-period {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--accent);
+  }
+  .role-title h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    color: var(--paper);
+    margin-bottom: 0.5rem;
+  }
+  .role-title .company {
+    font-size: 0.95rem;
+    color: rgba(250, 248, 244, 0.7);
+  }
+  .role-title .sector {
+    font-size: 0.78rem;
+    color: var(--accent);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    margin-top: 0.4rem;
+  }
+  .role-detail {
+    font-size: 0.95rem;
+    color: rgba(250, 248, 244, 0.85);
+    line-height: 1.7;
+  }
+  .role-detail p { margin-bottom: 0.85rem; }
+  .role-detail .tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+  }
+  .role-detail .tag {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 0.35rem 0.75rem;
+    border: 1px solid rgba(201, 168, 79, 0.45);
+    border-radius: 999px;
+    color: var(--accent);
+  }
+
+  /* ============ SPEAKING / TALKS ============ */
+  .talks-list {
+    border-top: 1px solid var(--line);
+  }
+  .talk {
+    display: grid;
+    grid-template-columns: 140px 1fr;
+    gap: 3rem;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid var(--line);
+    align-items: start;
+    transition: background 0.3s ease;
+  }
+  .talk:hover {
+    background: var(--paper-2);
+  }
+  .talk-year {
+    position: sticky;
+    top: 100px;
+  }
+  .talk-year .year {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6rem;
+    color: var(--accent-2);
+    letter-spacing: 0.02em;
+    line-height: 1;
+    display: inline-block;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent);
+  }
+  .talk-body h3 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 1.35rem;
+    line-height: 1.25;
+    color: var(--ink);
+    margin-bottom: 0.4rem;
+    letter-spacing: -0.01em;
+  }
+  .talk-venue {
+    font-size: 0.92rem;
+    color: var(--gray);
+    font-weight: 500;
+    margin-bottom: 0.8rem;
+  }
+  .talk-detail {
+    font-size: 0.92rem;
+    color: var(--gray);
+    line-height: 1.65;
+    margin-bottom: 1rem;
+    max-width: 60ch;
+  }
+  .talk-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .talk-tag {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    padding: 0.3rem 0.7rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    color: var(--ink-soft);
+    font-weight: 500;
+  }
+  .talk:hover .talk-tag {
+    background: transparent;
+    border-color: var(--accent-2);
+    color: var(--accent-2);
+  }
+  @media (max-width: 720px) {
+    .talk { grid-template-columns: 1fr; gap: 0.75rem; padding: 2rem 0; }
+    .talk-year { position: static; }
+    .talk-year .year { font-size: 1.2rem; }
+  }
+
+  /* ============ STACK ============ */
+  .stack-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 900px) {
+    .stack-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  @media (max-width: 600px) {
+    .stack-grid { grid-template-columns: 1fr; }
+  }
+  .stack-card {
+    padding: 1.75rem;
+    background: var(--paper-2);
+    border-radius: 4px;
+    border: 1px solid var(--line);
+  }
+  .stack-card h4 {
+    font-size: 0.78rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: var(--accent-2);
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+  .stack-card ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+  }
+  .stack-card li {
+    font-size: 0.82rem;
+    padding: 0.3rem 0.7rem;
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    color: var(--ink);
+  }
+
+  /* ============ CONTACT ============ */
+  .contact {
+    background: var(--paper-2);
+    border-top: 1px solid var(--line);
+    text-align: center;
+    padding: 8rem var(--gutter);
+  }
+  .contact .eyebrow { justify-content: center; }
+  .contact h2 {
+    font-family: var(--serif);
+    font-weight: 400;
+    font-size: clamp(2.5rem, 6vw, 5rem);
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: var(--ink);
+    max-width: 900px;
+    margin: 0 auto 2rem;
+  }
+  .contact h2 em {
+    font-style: italic;
+    color: var(--accent-2);
+  }
+  .contact .email-link {
+    display: inline-block;
+    font-family: var(--serif);
+    font-size: clamp(1.4rem, 3vw, 2.2rem);
+    color: var(--ink);
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 0.25rem;
+    margin: 1rem 0 2rem;
+    transition: all .25s ease;
+  }
+  .contact .email-link:hover {
+    color: var(--accent-2);
+    border-bottom-color: var(--accent-2);
+  }
+  .contact .channels {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+    color: var(--gray);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+  }
+  .contact .channels a {
+    transition: color .2s ease;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 2px;
+  }
+  .contact .channels a:hover {
+    color: var(--accent-2);
+    border-bottom-color: var(--accent-2);
+  }
+
+  /* ============ FOOTER ============ */
+  footer {
+    padding: 2rem var(--gutter);
+    text-align: center;
+    font-size: 0.78rem;
+    color: var(--gray-soft);
+    border-top: 1px solid var(--line);
+    background: var(--paper);
+    position: relative;
+    z-index: 2;
+  }
+  footer .lang {
+    margin-top: 0.8rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+  }
+  footer .lang a { color: var(--ink-soft); text-decoration: underline; }
+
+  /* ============ REVEAL ANIMATION ============ */
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition: opacity 0.8s cubic-bezier(.2,.7,.3,1), transform 0.8s cubic-bezier(.2,.7,.3,1);
+  }
+  .reveal.in {
+    opacity: 1;
+    transform: translateY(0);
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav id="nav">
+  <div class="wrap">
+    <a href="#top" class="mark">Helen Palacios<span>.</span></a>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#expertise">Expertise</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#speaking">Speaking</a></li>
+      <li><a href="#contact" class="cta">Hire Me →</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="top">
+  <div class="wrap">
+    <div class="eyebrow reveal">
+      <span class="dot"></span>
+      Available for remote roles · US & EMEA
+    </div>
+
+    <h1 class="reveal">
+      Building <em>desirable</em>,<br>
+      trustworthy, <span class="underline">high-performing</span><br>
+      digital brands.
+    </h1>
+
+    <p class="lede reveal">
+      Marketing & Digital Strategy Lead with 7+ years connecting brand,
+      reputation, and revenue. I design end-to-end strategies across
+      growth, branding, e-commerce, SEO, and paid media — for B2B
+      and B2C markets.
+    </p>
+
+    <div class="hero-actions reveal">
+      <a href="#contact" class="btn btn-primary">
+        Let's talk <span class="arrow">→</span>
+      </a>
+      <a href="Helen_Palacios_Resume_2026.pdf" class="btn btn-secondary" download>
+        Download Resume
+      </a>
+    </div>
+
+    <div class="hero-meta reveal">
+      <div class="item">
+        <span class="label">Based in</span>
+        <span class="value">Guatemala City</span>
+      </div>
+      <div class="item">
+        <span class="label">Working with</span>
+        <span class="value">US · EMEA · LATAM</span>
+      </div>
+      <div class="item">
+        <span class="label">Focus</span>
+        <span class="value">Growth · Branding · E-commerce</span>
+      </div>
+      <div class="item">
+        <span class="label">Languages</span>
+        <span class="value">English · Spanish</span>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num">01 — About</div>
+      </div>
+      <h2 class="section-title">A strategist who treats the brand as <em>a system</em>, not an asset.</h2>
+    </div>
+
+    <div class="grid">
+      <div class="about-photo reveal">
+        <picture>
+          <source type="image/avif"
+                  srcset="img/helen.avif 1x, img/helen-2x.avif 2x">
+          <source type="image/webp"
+                  srcset="img/helen.webp 1x, img/helen-2x.webp 2x">
+          <img src="img/helen.jpeg"
+               srcset="img/helen.jpeg 1x, img/helen-2x.jpeg 2x"
+               alt="Portrait of Helen Palacios"
+               loading="lazy"
+               decoding="async"
+               width="800" height="1000">
+        </picture>
+      </div>
+      <div class="about-text reveal">
+        <p>I lead marketing as a <strong>connective discipline</strong> — where brand, communications, e-commerce, and performance work together rather than compete for attention.</p>
+        <p>Across consumer tech, FMCG, and Fortune 500 industrial environments, I've led rebrandings that build digital trust, content systems that earn organic reach, and paid media that converts. I work fluently between strategy decks and Google Analytics dashboards.</p>
+        <p>Now I'm focused on remote leadership roles with US and European teams shipping ambitious work for B2B and B2C audiences — particularly those treating SEO and AI-search (GEO) as the next frontier of brand visibility.</p>
+        <div class="signature">— Helen</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERTISE ============ -->
+<section id="expertise">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num">02 — What I do</div>
+      </div>
+      <h2 class="section-title">Six capabilities, <em>one</em> integrated practice.</h2>
+    </div>
+
+    <div class="expertise-grid reveal">
+      <div class="expertise-card">
+        <div class="num">i.</div>
+        <h3>Growth & Demand Generation</h3>
+        <p>B2B and B2C funnel design, lead capture, conversion optimization, and rigorous A/B testing across acquisition channels.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="num">ii.</div>
+        <h3>Branding & Positioning</h3>
+        <p>Multi-brand rebranding, brand guidelines, visual identity, and storytelling that reinforces trust and commercial intent.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="num">iii.</div>
+        <h3>SEO & AI-Driven Visibility</h3>
+        <p>Organic search strategy, technical SEO, content matrices, and GEO optimization for ChatGPT, Perplexity, and Gemini.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="num">iv.</div>
+        <h3>Paid Media & Performance</h3>
+        <p>Google Search & Display, Meta Ads, TikTok Ads — with creative iteration cycles and ROAS-focused attribution.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="num">v.</div>
+        <h3>Content & Editorial Strategy</h3>
+        <p>Editorial calendars, channel-audience segmentation, and content pillars that scale across paid, organic, and owned media.</p>
+      </div>
+      <div class="expertise-card">
+        <div class="num">vi.</div>
+        <h3>Corporate Communication</h3>
+        <p>Reputation management, internal and external messaging, and crisis-ready narrative frameworks for executives and stakeholders.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="experience" id="experience">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num">03 — Trajectory</div>
+      </div>
+      <h2 class="section-title">Roles spanning consumer tech, FMCG, and <em>Fortune 500</em> industrial.</h2>
+    </div>
+
+    <div class="timeline">
+      <article class="role reveal">
+        <div class="role-period">Most recent</div>
+        <div class="role-title">
+          <h3>Marketing, Digital & Branding Lead</h3>
+          <div class="company">Tecnolite</div>
+          <div class="sector">Consumer Tech / Lighting</div>
+        </div>
+        <div class="role-detail">
+          <p>Strategic ownership of the brand portfolio — integrating e-commerce, content, paid media, and CRM into a unified growth framework. Led rebranding initiatives focused on trust signals and on-page conversion. Built audience- and channel-segmented content matrices and aligned Marketing–Sales pipelines through shared KPIs.</p>
+          <div class="tags">
+            <span class="tag">E-commerce</span>
+            <span class="tag">Rebranding</span>
+            <span class="tag">SEO</span>
+            <span class="tag">Paid Media</span>
+            <span class="tag">B2C</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="role reveal">
+        <div class="role-period">Earlier</div>
+        <div class="role-title">
+          <h3>Corporate Communication Specialist</h3>
+          <div class="company">Vitali Alimentos / Grupo AG</div>
+          <div class="sector">FMCG / Food Industry</div>
+        </div>
+        <div class="role-detail">
+          <p>Led institutional communication and reputation-focused brand narrative. Designed corporate messaging that aligned consumer, B2B, and stakeholder audiences. Built editorial guidelines used cross-functionally by marketing, HR, and PR.</p>
+          <div class="tags">
+            <span class="tag">Reputation</span>
+            <span class="tag">Corporate Comms</span>
+            <span class="tag">Storytelling</span>
+            <span class="tag">B2B + B2C</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="role reveal">
+        <div class="role-period">Foundation</div>
+        <div class="role-title">
+          <h3>In-House Designer / Marketing Assistant</h3>
+          <div class="company">3M Latin America</div>
+          <div class="sector">B2B Industrial / Multinational</div>
+        </div>
+        <div class="role-detail">
+          <p>Creative and marketing support for regional B2B campaigns across LATAM. Localized global campaigns for Spanish-speaking markets and developed foundational expertise in B2B operations and Fortune 500 brand systems.</p>
+          <div class="tags">
+            <span class="tag">B2B</span>
+            <span class="tag">Brand Systems</span>
+            <span class="tag">Multinational</span>
+            <span class="tag">LATAM</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SPEAKING / TALKS ============ -->
+<section id="speaking">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num">04 — Speaking</div>
+      </div>
+      <h2 class="section-title">Sharing the practice — universities, brands, and <em>industry teams</em>.</h2>
+    </div>
+
+    <div class="talks-list reveal">
+
+      <article class="talk">
+        <div class="talk-year">
+          <span class="year">2025</span>
+        </div>
+        <div class="talk-body">
+          <h3>Brand positioning &amp; lead generation strategy</h3>
+          <div class="talk-venue">Construlita — Mexico &amp; Central America</div>
+          <p class="talk-detail">Conference for the regional commercial team on positioning frameworks and demand-generation playbooks for industrial markets.</p>
+          <div class="talk-tags">
+            <span class="talk-tag">Keynote</span>
+            <span class="talk-tag">Lead Gen</span>
+            <span class="talk-tag">Positioning</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="talk">
+        <div class="talk-year">
+          <span class="year">2025</span>
+        </div>
+        <div class="talk-body">
+          <h3>Internal influencers &amp; brand ambassadors workshop</h3>
+          <div class="talk-venue">Cibus Holdings — PR &amp; collaborator team</div>
+          <p class="talk-detail">Hands-on workshop training internal teams to act as brand ambassadors and amplify corporate communication through personal channels.</p>
+          <div class="talk-tags">
+            <span class="talk-tag">Workshop</span>
+            <span class="talk-tag">Employer Branding</span>
+            <span class="talk-tag">PR Enablement</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="talk">
+        <div class="talk-year">
+          <span class="year">2024</span>
+        </div>
+        <div class="talk-body">
+          <h3>Employer branding &amp; building culture</h3>
+          <div class="talk-venue">Universidad Rafael Landívar — Master's in Strategic Communication</div>
+          <p class="talk-detail">Guest lecture for third-trimester graduate students on how employer branding and corporate culture reinforce each other in modern organizations.</p>
+          <div class="talk-tags">
+            <span class="talk-tag">Guest Lecture</span>
+            <span class="talk-tag">Academia</span>
+            <span class="talk-tag">Culture</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="talk">
+        <div class="talk-year">
+          <span class="year">2023</span>
+        </div>
+        <div class="talk-body">
+          <h3>Leadership &amp; employer brand implementation</h3>
+          <div class="talk-venue">Piolindo &amp; Molino Areca — Central America regional team</div>
+          <p class="talk-detail">Training session for the brand ambassador team on rolling out employer branding strategy across Central America.</p>
+          <div class="talk-tags">
+            <span class="talk-tag">Training</span>
+            <span class="talk-tag">Employer Branding</span>
+            <span class="talk-tag">Leadership</span>
+          </div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ STACK ============ -->
+<section id="stack">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <div class="section-num">05 — Stack</div>
+      </div>
+      <h2 class="section-title">Tools I work in <em>fluently</em>.</h2>
+    </div>
+
+    <div class="stack-grid reveal">
+      <div class="stack-card">
+        <h4>Analytics</h4>
+        <ul>
+          <li>GA4</li><li>Meta Business</li><li>TikTok Analytics</li><li>Looker Studio</li><li>Search Console</li>
+        </ul>
+      </div>
+      <div class="stack-card">
+        <h4>Paid Media</h4>
+        <ul>
+          <li>Google Ads</li><li>Meta Ads</li><li>TikTok Ads</li><li>A/B Frameworks</li>
+        </ul>
+      </div>
+      <div class="stack-card">
+        <h4>SEO &amp; AI Search</h4>
+        <ul>
+          <li>SEMrush</li><li>Ahrefs</li><li>Schema.org</li><li>GEO/LLM</li>
+        </ul>
+      </div>
+      <div class="stack-card">
+        <h4>Content &amp; AI</h4>
+        <ul>
+          <li>ChatGPT</li><li>Claude</li><li>Perplexity</li><li>Notion</li><li>Canva</li>
+        </ul>
+      </div>
+      <div class="stack-card">
+        <h4>E-commerce</h4>
+        <ul>
+          <li>Shopify</li><li>WooCommerce</li><li>WordPress</li><li>Marketplaces</li>
+        </ul>
+      </div>
+      <div class="stack-card">
+        <h4>Design</h4>
+        <ul>
+          <li>Figma</li><li>Photoshop</li><li>Illustrator</li><li>InDesign</li><li>Premiere</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact">
+  <div class="wrap">
+    <div class="eyebrow reveal">
+      <span class="dot"></span>
+      Currently open to new roles
+    </div>
+
+    <h2 class="reveal">Let's build something <em>worth</em> remembering.</h2>
+
+    <p class="reveal" style="max-width: 600px; margin: 0 auto 1rem; color: var(--gray);">
+      Available for Marketing Lead, Digital Strategy Lead, Head of Growth,
+      and Senior Brand Manager roles. Remote, US or EMEA time zones.
+    </p>
+
+    <a href="mailto:helen.pala@gmail.com" class="email-link reveal">helen.pala@gmail.com</a>
+
+    <div class="channels reveal">
+      <a href="https://www.linkedin.com/in/helen-palacios-363aba192/" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="Helen_Palacios_Resume_2026.pdf" download>Resume (EN)</a>
+      <a href="Helen_Palacios_CV_2026_ES.pdf" download>CV (ES)</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div>© 2026 Helen Palacios — Designed with intention.</div>
+  <div class="lang">
+    <a href="index.html">EN</a>
+    <a href="index-es.html">ES</a>
+  </div>
+</footer>
+
+<script>
+  // LQIP blur-up: mark photo as loaded when image finishes loading
+  const photoEl = document.querySelector('.about-photo');
+  const photoImg = photoEl?.querySelector('img');
+  if (photoImg) {
+    if (photoImg.complete && photoImg.naturalWidth > 0) {
+      photoEl.classList.add('loaded');
+    } else {
+      photoImg.addEventListener('load', () => photoEl.classList.add('loaded'));
+      photoImg.addEventListener('error', () => photoEl.classList.add('loaded'));
+    }
+  }
+
+  // Nav scroll state
+  const nav = document.getElementById('nav');
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 20);
+  });
+
+  // Reveal on scroll
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+
+  document.querySelectorAll('.reveal').forEach(el => io.observe(el));
+
+  // Initial reveal for hero
+  setTimeout(() => {
+    document.querySelectorAll('.hero .reveal').forEach((el, i) => {
+      setTimeout(() => el.classList.add('in'), i * 120);
+    });
+  }, 100);
+</script>
+
+</body>
+</html>
